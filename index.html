@@ -5,11 +5,12 @@
   <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
         name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
-  <link href="styles.css" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
-  <link href="animate.min.css" rel="stylesheet">
+  <link href="aos.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
   <title>Mombay</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
   <nav class="main-menu">
     <a class="site-logo" href="index.html">mombay</a>
     <ion-icon class="burger-icon" name="menu-sharp"></ion-icon>
-    <ul class="nav-menu animate__animated animate__fadeInDown">
+    <ul class="nav-menu hidden">
       <ul class="site-menu">
         <li><a class="nav-menu-link" href="how-it-works.html">how it works</a></li>
       </ul>
@@ -36,7 +37,10 @@
   </div>
 </header>
 
-<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+<script src="aos.js"></script>
 <script src="main.js"></script>
+<script>
+  AOS.init()
+</script>
 </body>
 </html>

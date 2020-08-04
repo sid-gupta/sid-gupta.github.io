@@ -46,6 +46,7 @@ header {
 .main-menu .burger-icon {
     font-size: 2em;
     margin: auto 0;
+    cursor: pointer;
 }
 
 .nav-menu {
@@ -89,9 +90,9 @@ header {
 
 .hero-box div {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%, -40%);
     width: 100%;
     padding: 0 0.5em;
 }
